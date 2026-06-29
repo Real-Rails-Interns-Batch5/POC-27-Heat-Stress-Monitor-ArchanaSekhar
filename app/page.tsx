@@ -60,12 +60,14 @@ export default function Dashboard() {
               <Flame className="w-4 h-4 text-red-400" />
             </div>
             <div>
-              <span className="font-bold text-white text-sm">
-                Heat Stress & Occupational Health Risk Monitor
-              </span>
-              <span className="text-gray-600 text-xs ml-2">
-                POC-27 · Gulf Healthcare Intelligence Library
-              </span>
+             <div>
+  <span className="font-bold text-white text-sm">
+    Infocreon Internship - Heat Stress & Occupational Health Risk Monitor
+  </span>
+  <div className="text-gray-500 text-xs">
+    POC-27 · Gulf Healthcare Intelligence Library
+  </div>
+</div>
             </div>
           </div>
 
@@ -188,10 +190,25 @@ export default function Dashboard() {
         </div>
       </main>
 
-      <footer className="border-t border-gray-800 mt-8 py-4 text-center text-xs text-gray-600">
-        POC-27 · Gulf Healthcare Real Rails Intelligence Library · Batch 5 ·
-        All data is synthetic
-      </footer>
+      <footer className="border-t border-gray-800 mt-8 py-5">
+  <div className="max-w-[1600px] mx-auto px-6 text-center">
+    <div className="text-xs text-gray-400 font-medium">
+      Archana Sekhar
+    </div>
+
+    <div className="text-xs text-gray-500 mt-1">
+      POC-27 · Heat Stress & Occupational Health Risk Monitor
+    </div>
+
+    <div className="text-xs text-gray-500">
+      GitHub Username: archnaasekhar
+    </div>
+
+    <div className="text-xs text-gray-600 mt-2">
+      Infocreon Internship · Batch 5 · All data is synthetic
+    </div>
+  </div>
+</footer>
     </div>
   );
 }
